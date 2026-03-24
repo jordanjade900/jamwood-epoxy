@@ -14,10 +14,10 @@ const Contact: React.FC = () => {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     
-    const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID || 'service_vbbd9gu';
-    const adminTemplateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || 'template_m3dktcg';
+    const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+    const adminTemplateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
     const customerTemplateId = import.meta.env.VITE_EMAILJS_CUSTOMER_TEMPLATE_ID;
-    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || 'An_E9NyGbuiNuZNrJ';
+    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
     if (!serviceId || !adminTemplateId || !publicKey) {
       console.warn("EmailJS is not fully configured. Simulating success UI...");
