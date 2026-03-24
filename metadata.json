@@ -1,0 +1,7 @@
+{
+  "name": "Jamwood Epoxy - Handcrafted Elegance",
+  "description": "A premium, visually striking one-page website for Jamwood Epoxy, specializing in handcrafted epoxy and wood furniture using sustainable materials.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
