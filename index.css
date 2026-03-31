@@ -1,0 +1,15 @@
+/* Global Styles for Jamwood Epoxy */
+@import "tailwindcss";
+
+:root {
+  --jam-charcoal: #1c1c1c;
+  --jam-cyan: #00e5ff;
+  --jam-deep-blue: #003366;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--jam-charcoal);
+  color: #ffffff;
+}
